@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
+    [Header("----------Player Custome----------")]
     [SerializeField] Rigidbody rb;
     [SerializeField] float moveX;
     [SerializeField] float moveZ;
